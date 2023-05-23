@@ -47,6 +47,7 @@ jobs:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: ggingmin-cloudtype/sel4
           stage: main
+          endpoint: https://api.cloudtype.dev
           yaml: |
             name: container
             app: container
