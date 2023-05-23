@@ -53,4 +53,4 @@ jobs:
             app: container
             options:
               ports: 8080
-              image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}
+              image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
